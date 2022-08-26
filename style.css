@@ -48,6 +48,10 @@ body {
     /* position: fixed; */
 }
 
+.header li {
+    margin-right: 50px;
+}
+
 .header img {
     width: 300px;
     height: 100px;

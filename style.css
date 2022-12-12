@@ -252,6 +252,7 @@ body{
     width: 15vw;
     border-radius: 2vmax;
     cursor: pointer;
+    height: 250px;
 }
 .row {
     display: flex;

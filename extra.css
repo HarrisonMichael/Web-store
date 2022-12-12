@@ -29,6 +29,7 @@
         display: flex;
         justify-content: space-evenly;
     }
+    
     #small-container3, #small-container2, #small-container{
         width: 100vw;
         /* margin: auto; */

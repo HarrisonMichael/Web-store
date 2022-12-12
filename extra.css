@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ /* ----- new screen ----- */
+ @media only screen and (max-width:600px){
+    .content{
+        display: none;
+    }
+    .input{
+        display: none;
+    }
+    .logo img{
+        margin: 0;
+        width: 100px;
+    }
+    .logo{
+        width: 10vw;
+    }
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #small-container3, #small-container2, #small-container{
+        width: 100vw;
+        /* margin: auto; */
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translate(0%);
+    }
+    h4{
+        text-align: center;
+        font-size: small;
+    }
+    #demo{
+        font-size: large;
+    }
+    .row{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .row a{
+        text-decoration: none;
+    }
+    .col-4 img, .col-5 img {
+        width: 100vw;
+    }
+    footer{
+        display: flex;
+        align-items: flex-end;
+        width: 100vw;
+    }
+    
+    .container, .footer-body, tt, #demo, #pp, #footer-body{
+        display: none;
+    }
+    .sect-main small{
+        display: block;
+    }
+    /* ----- Detail page ----- */
+    .start{
+        display: flex;
+        flex-direction: column;
+    }
+    .start div>img{
+        width: 100vw;
+        margin: 0;
+    }
+    .name h1{
+        font-size: small;
+    }
+    .list h1{
+        font-size: medium;
+    }
+    .price p {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        font-size: x-large;
+        font-weight: 700;
+    }
+    #buy {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    #buy li {
+        margin: 0 auto;
+    }
+    #buy ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .buy {
+        width: 70vw;
+    }
+    .share{
+        font-size: small;
+    }
+    .quan {
+        width: 100vw;
+        padding: 0;
+        margin: 10px;
+    }
+    .small-container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        transform: translate(0);
+        width: 100vw;
+        margin-top: 100px;
+        padding: 0;
+        border-radius: 20px;
+        color: black;
+    }
+    .small-container3 .col-4 {
+        cursor: pointer;
+        margin-left: 0;
+    }
+    #small-container3 .col-4 {
+        margin-left: 0;
+        cursor: pointer;
+    }
+    .head {
+        display: none;
+    }
+}

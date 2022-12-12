@@ -12,6 +12,7 @@ body{
     display: none;
 }
 .head-ad {
+    display: none;
     height: 80px;
     background-color: rgb(255, 132, 32);
     display: flex;

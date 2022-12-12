@@ -40,6 +40,9 @@
         flex-direction: column;
         transform: translate(0%);
     }
+    #small-container2{
+        margin-bottom: 100px;
+    }
     h4{
         text-align: center;
         font-size: small;

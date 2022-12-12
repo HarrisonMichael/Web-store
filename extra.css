@@ -60,6 +60,7 @@
     }
     .col-4 img, .col-5 img {
         width: 100vw;
+        height: 250px;
     }
     footer{
         display: flex;

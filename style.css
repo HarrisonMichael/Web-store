@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: rgb(237, 237, 237);
 }
 
 .head-ad {
@@ -270,7 +270,10 @@ img{
     min-width: 20px;
     margin-bottom: 50px;
     transition: transform 0.8s;
-    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /* font-family: 'Poppins', sans-serif; */
 }
 
@@ -401,6 +404,12 @@ img{
 #small-container3 .col-4 {
     margin-left: 70px;
     cursor: pointer;
+}
+
+.part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer {

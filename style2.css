@@ -1,9 +1,0 @@
-.footer-bodi {
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    color: #ffff;
-    transform: translate(0%, +135%);
-    justify-content: center;
-    align-items: center;
-}
